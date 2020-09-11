@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel *.html",
-    "build": "parcel build *.html"
+    "build": "parcel build *.html",
+    "format": "prettier --write ."
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
   "homepage": "https://github.com/MartijnNieuwenhuizen/parcel-scaffold#readme",
   "devDependencies": {
     "parcel-bundler": "^1.12.4",
+    "prettier": "2.1.1",
     "sass": "^1.26.10"
   }
 }
